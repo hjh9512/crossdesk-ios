@@ -49,6 +49,7 @@
 | `signed` | 使用仓库 Secrets 中的 Apple 证书 + 描述文件签名 | 可直接安装到设备、上传 TestFlight / App Store |
 
 推送 `v*` 标签（如 `v1.7.3`）会自动触发打包，并把 IPA 与 dSYM 上传到对应 GitHub Release。
+手动运行 **Run workflow** 时若勾选「同时发布到 GitHub Release」，也会自动创建 `v<版本号>` 标签并发布产物。
 
 ## 配置签名（signed 模式）
 
