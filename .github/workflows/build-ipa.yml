@@ -1,0 +1,193 @@
+name: Build IPA
+
+# 触发方式：
+#   1) 手动：仓库 Actions 页 → Build IPA → Run workflow（可选 unsigned / signed）
+#   2) 推送 v* 标签时自动触发，并把 IPA 上传到对应 Release
+on:
+  workflow_dispatch:
+    inputs:
+      signing:
+        description: 签名模式（unsigned = 不签名直接打包；signed = 使用仓库 Secrets 中的证书签名）
+        type: choice
+        required: true
+        default: unsigned
+        options:
+          - unsigned
+          - signed
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-ipa-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  APP_NAME: CrossDeskMobile
+  APP_BUNDLE_ID: cn.crossdesk.mobile
+
+jobs:
+  build:
+    name: 打包 IPA
+    runs-on: macos-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 读取版本与架构
+        id: app_info
+        run: |
+          set -euo pipefail
+          VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$APP_NAME.app/Info.plist")
+          BUILD=$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" "$APP_NAME.app/Info.plist")
+          ARCH=$(lipo -archs "$APP_NAME.app/$APP_NAME" | awk '{print $1}')
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "build=${BUILD}" >> "$GITHUB_OUTPUT"
+          echo "arch=${ARCH}" >> "$GITHUB_OUTPUT"
+          echo "版本=${VERSION} (build ${BUILD})，架构=${ARCH}"
+
+      - name: 检查应用包
+        run: |
+          set -euo pipefail
+          [ -d "$APP_NAME.app" ] || { echo "找不到 $APP_NAME.app" >&2; exit 1; }
+          [ -f "$APP_NAME.app/$APP_NAME" ] || { echo "找不到主程序二进制" >&2; exit 1; }
+          # 从 Windows 推送的仓库可能丢失可执行位，这里统一补上
+          chmod +x "$APP_NAME.app/$APP_NAME"
+          file "$APP_NAME.app/$APP_NAME"
+          if codesign -dv "$APP_NAME.app" >/dev/null 2>&1; then
+            echo "当前签名状态：已签名"
+          else
+            echo "当前签名状态：未签名（unsigned 模式符合预期）"
+          fi
+
+      - name: 导入证书与描述文件（signed 模式）
+        id: signing
+        if: github.event.inputs.signing == 'signed'
+        env:
+          CERT_P12_BASE64: ${{ secrets.IOS_CERT_P12_BASE64 }}
+          CERT_PASSWORD: ${{ secrets.IOS_CERT_PASSWORD }}
+          PROFILE_BASE64: ${{ secrets.IOS_PROVISIONING_PROFILE_BASE64 }}
+        run: |
+          set -euo pipefail
+          if [ -z "$CERT_P12_BASE64" ] || [ -z "$CERT_PASSWORD" ] || [ -z "$PROFILE_BASE64" ]; then
+            echo "::error::signed 模式需要先在仓库 Secrets 中配置 IOS_CERT_P12_BASE64、IOS_CERT_PASSWORD、IOS_PROVISIONING_PROFILE_BASE64（详见 signing/README.md）"
+            exit 1
+          fi
+          echo "$CERT_P12_BASE64" | base64 --decode > /tmp/ios_cert.p12
+          echo "$PROFILE_BASE64" | base64 --decode > /tmp/CrossDesk.mobileprovision
+
+          # 使用独立钥匙串，避免污染系统钥匙串
+          security create-keychain -p "$CERT_PASSWORD" build.keychain
+          security default-keychain -s build.keychain
+          security unlock-keychain -p "$CERT_PASSWORD" build.keychain
+          security import /tmp/ios_cert.p12 -k build.keychain -P "$CERT_PASSWORD" -T /usr/bin/codesign -T /usr/bin/security
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$CERT_PASSWORD" build.keychain
+
+          # 安装描述文件
+          mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+          cp /tmp/CrossDesk.mobileprovision "$HOME/Library/MobileDevice/Provisioning Profiles/CrossDesk.mobileprovision"
+
+          # 查找签名身份
+          IDENTITY=$(security find-identity -v -p codesigning build.keychain | awk '/iPhone (Developer|Distribution)/ {print $2; exit}')
+          if [ -z "$IDENTITY" ]; then
+            echo "::error::证书中未找到 iPhone Developer / iPhone Distribution 签名身份，请检查 IOS_CERT_P12_BASE64"
+            exit 1
+          fi
+          echo "identity=${IDENTITY}" >> "$GITHUB_OUTPUT"
+
+          # 从描述文件自动提取 entitlements（保证与描述文件完全一致）
+          security cms -D -i /tmp/CrossDesk.mobileprovision > /tmp/profile.plist
+          if /usr/libexec/PlistBuddy -c "Print :Entitlements" /tmp/profile.plist > /tmp/entitlements.plist 2>/dev/null; then
+            echo "✅ 已从描述文件提取 entitlements"
+            echo "has_entitlements=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "⚠️ 描述文件中无 Entitlements，签名时不注入 entitlements"
+            echo "has_entitlements=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 代码签名（signed 模式）
+        if: github.event.inputs.signing == 'signed'
+        env:
+          IDENTITY: ${{ steps.signing.outputs.identity }}
+          HAS_ENTITLEMENTS: ${{ steps.signing.outputs.has_entitlements }}
+        run: |
+          set -euo pipefail
+          # 1) 先签名所有嵌入式 Framework
+          for fw in "$APP_NAME.app/Frameworks/"*.framework; do
+            if [ -e "$fw" ]; then
+              codesign --force --sign "$IDENTITY" "$fw"
+              echo "✅ 已签名 $fw"
+            fi
+          done
+          # 2) 签名主程序
+          if [ "$HAS_ENTITLEMENTS" = "true" ]; then
+            codesign --force --sign "$IDENTITY" --entitlements /tmp/entitlements.plist "$APP_NAME.app"
+          else
+            codesign --force --sign "$IDENTITY" "$APP_NAME.app"
+          fi
+          # 3) 严格校验签名
+          codesign --verify --deep --strict --verbose=2 "$APP_NAME.app"
+          codesign -dv "$APP_NAME.app" 2>&1 | grep -E 'Identifier|TeamIdentifier' || true
+          echo "✅ 签名完成并通过校验"
+
+      - name: 打包 IPA
+        id: package
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.app_info.outputs.version }}"
+          BUILD="${{ steps.app_info.outputs.build }}"
+          ARCH="${{ steps.app_info.outputs.arch }}"
+          MODE="${{ github.event.inputs.signing }}"
+          [ -z "$MODE" ] && MODE="unsigned"
+
+          STAGING="$(mktemp -d)"
+          trap 'rm -rf "$STAGING"' EXIT
+          mkdir -p "$STAGING/Payload"
+          cp -R "$APP_NAME.app" "$STAGING/Payload/"
+
+          mkdir -p dist
+          IPA="${APP_NAME}-${VERSION}-${BUILD}-${ARCH}-${MODE}.ipa"
+          # ditto 以 Payload 为归档根目录，产出标准 IPA 结构
+          ditto -c -k "$STAGING/Payload" "dist/$IPA"
+
+          # 校验归档结构与完整性
+          unzip -t "dist/$IPA" | tail -1
+          unzip -l "dist/$IPA" | sed -n '1,6p'
+          echo "ipa_name=${IPA}" >> "$GITHUB_OUTPUT"
+          echo "✅ IPA 产物：dist/$IPA"
+
+      - name: 打包 dSYM（崩溃符号，用于 Crash 日志符号化）
+        run: |
+          set -euo pipefail
+          if [ -d "$APP_NAME.app.dSYM" ]; then
+            mkdir -p dist
+            ditto -c -k "$APP_NAME.app.dSYM" "dist/${APP_NAME}.app.dSYM.zip"
+            echo "✅ dSYM 已打包：dist/${APP_NAME}.app.dSYM.zip"
+          else
+            echo "未发现 $APP_NAME.app.dSYM，跳过"
+          fi
+
+      - name: 上传 IPA 产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: ipa-${{ github.event.inputs.signing || 'unsigned' }}
+          path: dist/*.ipa
+          if-no-files-found: error
+
+      - name: 上传 dSYM 产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: dSYM
+          path: dist/*.dSYM.zip
+          if-no-files-found: ignore
+
+      - name: 发布到 GitHub Release（仅 tag 触发）
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.ipa
+            dist/*.dSYM.zip

@@ -1,0 +1,3305 @@
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        https://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+
+Files: crypto/LPdir_nyi.c, crypto/LPdir_vms.c, crypto/LPdir_win.c, crypto/LPdir_win32.c, crypto/LPdir_wince.c, crypto/x509/v3_pcia.c
+
+/*
+ * Copyright 2004-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/LPdir_nyi.c, include/internal/o_dir.h
+
+/*
+ * This file is dual-licensed and is also available under the following
+ * terms:
+ *
+ * Copyright (c) 2004, Richard Levitte <richard@levitte.org>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+
+Files: crypto/LPdir_unix.c, crypto/sha/sha256.c, crypto/x509/pcy_cache.c, crypto/x509/pcy_local.h, crypto/x509/pcy_node.c, crypto/x509/pcy_tree.c, crypto/x509/x509_vpm.c
+
+/*
+ * Copyright 2004-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/LPdir_unix.c
+
+/*
+ * This file is dual-licensed and is also available under the following
+ * terms:
+ *
+ * Copyright (c) 2004, 2018, Richard Levitte <richard@levitte.org>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Files: crypto/LPdir_vms.c, crypto/LPdir_win.c, crypto/LPdir_win32.c, crypto/LPdir_wince.c
+
+/*
+ * This file is dual-licensed and is also available under the following
+ * terms:
+ *
+ * Copyright (c) 2004, Richard Levitte <richard@levitte.org>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Files: crypto/aes/aes_cbc.c, crypto/aes/aes_cfb.c, crypto/aes/aes_ecb.c, crypto/aes/aes_misc.c, crypto/aes/aes_ofb.c, crypto/asn1/asn_moid.c, crypto/dh/dh_depr.c, crypto/ec/ec_deprecated.c, crypto/ec/ec_print.c, crypto/ec/ecdsa_vrf.c, crypto/engine/eng_cnf.c, crypto/rsa/rsa_depr.c, include/openssl/aes.h
+
+/*
+ * Copyright 2002-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/aes_core.c
+
+/*
+ * Copyright 2002-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/aes_core.c, crypto/aes/aes_x86core.c
+
+/**
+ * rijndael-alg-fst.c
+ *
+ * @version 3.0 (December 2000)
+ *
+ * Optimised ANSI C code for the Rijndael cipher (now AES)
+ *
+ * @author Vincent Rijmen
+ * @author Antoon Bosselaers
+ * @author Paulo Barreto
+ *
+ * This code is hereby placed in the public domain.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS
+ * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Files: crypto/aes/aes_ige.c, crypto/camellia/cmll_cbc.c, crypto/camellia/cmll_cfb.c, crypto/camellia/cmll_ctr.c, crypto/camellia/cmll_ecb.c, crypto/camellia/cmll_misc.c, crypto/camellia/cmll_ofb.c, crypto/ec/ecx_s390x.c, crypto/ts/ts_asn1.c, crypto/ts/ts_req_utils.c, crypto/ts/ts_rsp_print.c, crypto/ts/ts_rsp_utils.c, include/openssl/camellia.h
+
+/*
+ * Copyright 2006-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/aes_local.h, crypto/bn/bn_depr.c, crypto/conf/conf_mall.c, crypto/dsa/dsa_depr.c, crypto/ec/ec_asn1.c, crypto/ec/ec_check.c
+
+/*
+ * Copyright 2002-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/aes_wrap.c
+
+/*
+ * Copyright 2008-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/aes_x86core.c, crypto/camellia/cmll_local.h, crypto/pkcs7/bio_pk7.c, crypto/ts/ts_req_print.c
+
+/*
+ * Copyright 2006-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aes/asm/aes-ia64.S
+
+// Copyright 2004-2016 The OpenSSL Project Authors. All Rights Reserved.
+//
+// Licensed under the Apache License 2.0 (the "License").  You may not use
+// this file except in compliance with the License.  You can obtain a copy
+// in the file LICENSE in the source distribution or at
+// https://www.openssl.org/source/license.html
+//
+// ====================================================================
+// Written by Andy Polyakov <appro@openssl.org> for the OpenSSL
+// project. Rights for redistribution and usage in source and binary
+// forms are granted according to the License.
+// ====================================================================
+//
+// What's wrong with compiler generated code? Compiler never uses
+// variable 'shr' which is pairable with 'extr'/'dep' instructions.
+// Then it uses 'zxt' which is an I-type, but can be replaced with
+// 'and' which in turn can be assigned to M-port [there're double as
+// much M-ports as there're I-ports on Itanium 2]. By sacrificing few
+// registers for small constants (255, 24 and 16) to be used with
+// 'shr' and 'and' instructions I can achieve better ILP, Instruction
+// Level Parallelism, and performance. This code outperforms GCC 3.3
+// generated code by over factor of 2 (two), GCC 3.4 - by 70% and
+// HP C - by 40%. Measured best-case scenario, i.e. aligned
+// big-endian input, ECB timing on Itanium 2 is (18 + 13*rounds)
+// ticks per block, or 9.25 CPU cycles per byte for 128 bit key.
+
+
+Files: crypto/aria/aria.c, crypto/evp/e_aria.c
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2017, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/aria/aria.c
+
+/*
+ * Copyright (C) 2017 National Security Research Institute. All Rights Reserved.
+ *
+ * Information for ARIA
+ *     http://210.104.33.10/ARIA/index-e.html (English)
+ *     http://seed.kisa.or.kr/ (Korean)
+ *
+ * Public domain version is distributed above.
+ */
+
+Files: crypto/arm_arch.h, crypto/armcap.c, providers/implementations/rands/drbg.c, providers/implementations/rands/drbg_ctr.c, providers/implementations/rands/drbg_hash.c, providers/implementations/rands/drbg_hmac.c, ssl/d1_srtp.c
+
+/*
+ * Copyright 2011-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_bitstr.c, crypto/asn1/asn1_parse.c, crypto/asn1/d2i_pr.c, crypto/asn1/i2d_evp.c, crypto/bio/bf_buff.c, crypto/bio/bf_lbuf.c, crypto/bio/bio_print.c, crypto/bio/bss_acpt.c, crypto/bio/bss_mem.c, crypto/bio/bss_sock.c, crypto/bn/bn_asm.c, crypto/bn/bn_exp.c, crypto/bn/bn_local.h, crypto/bn/bn_mont.c, crypto/bn/bn_recp.c, crypto/cast/cast_local.h, crypto/des/des_local.h, crypto/dh/dh_key.c, crypto/dh/dh_lib.c, crypto/dsa/dsa_key.c, crypto/dsa/dsa_lib.c, crypto/err/err.c, crypto/err/err_all.c, crypto/err/err_local.h, crypto/evp/bio_b64.c, crypto/evp/bio_ok.c, crypto/evp/evp_enc.c, crypto/evp/p_sign.c, crypto/evp/p_verify.c, crypto/ex_data.c, crypto/mem.c, crypto/pem/pem_lib.c, crypto/pem/pem_pkey.c, crypto/pkcs7/pk7_lib.c, crypto/rand/rand_lib.c, crypto/rc2/rc2_local.h, crypto/rc5/rc5_local.h, crypto/rsa/rsa_ossl.c, crypto/rsa/rsa_pk1.c, crypto/rsa/rsa_x931g.c, crypto/txt_db/txt_db.c, crypto/x509/x509_cmp.c, crypto/x509/x509_def.c, crypto/x509/x509_set.c, crypto/x509/x509_txt.c, crypto/x509/x509_vfy.c, crypto/x509/x_all.c, crypto/x509/x_pubkey.c, include/openssl/dh.h, include/openssl/evp.h, include/openssl/sha.h, providers/implementations/ciphers/cipher_tdes_wrap.c, providers/implementations/rands/seeding/rand_unix.c, ssl/record/methods/tls_pad.c, ssl/ssl_rsa.c
+
+/*
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_d2i_fp.c, crypto/asn1/a_verify.c, crypto/bio/bio_lib.c, crypto/bio/bio_sock.c, crypto/bio/bss_conn.c, crypto/bn/bn_lib.c, crypto/bn/bn_rand.c, crypto/bn/bn_shift.c, crypto/conf/conf_def.c, crypto/dh/dh_check.c, crypto/dsa/dsa_check.c, crypto/dsa/dsa_ossl.c, crypto/dsa/dsa_sign.c, crypto/evp/bio_enc.c, crypto/evp/digest.c, crypto/evp/evp_key.c, crypto/evp/evp_lib.c, crypto/evp/names.c, crypto/evp/p_lib.c, crypto/lhash/lhash.c, crypto/lhash/lhash_local.h, crypto/objects/obj_dat.c, crypto/pkcs7/pk7_doit.c, crypto/rand/randfile.c, crypto/rsa/rsa_gen.c, crypto/rsa/rsa_lib.c, crypto/stack/stack.c, crypto/x509/by_dir.c, crypto/x509/by_file.c, crypto/x509/x509_att.c, crypto/x509/x509_lu.c, crypto/x509/x509_req.c, crypto/x509/x_name.c, include/internal/common.h, include/internal/cryptlib.h, include/internal/e_os.h, include/internal/sockets.h, include/openssl/e_os2.h, providers/implementations/rands/drbg_local.h, ssl/bio_ssl.c, ssl/record/rec_layer_s3.c, ssl/record/record.h, ssl/record/record_local.h, ssl/t1_lib.c
+
+/*
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_digest.c, crypto/asn1/a_dup.c, crypto/asn1/a_gentm.c, crypto/asn1/a_i2d_fp.c, crypto/asn1/a_int.c, crypto/asn1/a_object.c, crypto/asn1/a_print.c, crypto/asn1/a_type.c, crypto/asn1/a_utctm.c, crypto/asn1/a_utf8.c, crypto/asn1/asn1_lib.c, crypto/asn1/evp_asn1.c, crypto/asn1/n_pkey.c, crypto/bio/bf_nbio.c, crypto/bio/bf_null.c, crypto/bio/bio_cb.c, crypto/bio/bio_dump.c, crypto/bio/bss_fd.c, crypto/bio/bss_file.c, crypto/bio/bss_null.c, crypto/bn/bn_prime.c, crypto/dh/dh_gen.c, crypto/dsa/dsa_gen.c, crypto/err/err_prn.c, crypto/evp/bio_md.c, crypto/evp/e_bf.c, crypto/evp/e_cast.c, crypto/evp/e_des.c, crypto/evp/e_des3.c, crypto/evp/e_idea.c, crypto/evp/e_null.c, crypto/evp/e_rc2.c, crypto/evp/e_rc4.c, crypto/evp/e_rc5.c, crypto/evp/e_xcbc_d.c, crypto/evp/legacy_ripemd.c, crypto/evp/m_null.c, crypto/evp/p_dec.c, crypto/evp/p_enc.c, crypto/evp/p_legacy.c, crypto/evp/p_seal.c, crypto/hmac/hmac.c, crypto/idea/i_cfb64.c, crypto/idea/i_ofb64.c, crypto/pem/pem_all.c, crypto/pem/pem_info.c, crypto/pem/pem_sign.c, crypto/rand/rand_local.h, crypto/rand/rand_pool.c, crypto/rc2/rc2_skey.c, crypto/rsa/rsa_sign.c, crypto/sha/sha1_one.c, crypto/x509/t_req.c, crypto/x509/x509type.c, crypto/x509/x_crl.c, crypto/x509/x_req.c, crypto/x509/x_x509.c, include/crypto/rand_pool.h, include/internal/thread_once.h, include/openssl/conftypes.h, include/openssl/dsa.h, include/openssl/hmac.h, include/openssl/pem.h, include/openssl/rand.h, include/openssl/rsa.h, include/openssl/stack.h, providers/implementations/ciphers/cipher_des_hw.c, providers/implementations/ciphers/cipher_tdes_default_hw.c, providers/implementations/include/prov/md5_sha1.h, providers/implementations/rands/seeding/rand_cpu_x86.c, providers/implementations/rands/seeding/rand_tsc.c, providers/implementations/rands/seeding/rand_win.c, ssl/s3_msg.c
+
+/*
+ * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_mbstr.c, crypto/asn1/t_spki.c, crypto/evp/p5_crpt.c, crypto/pkcs12/p12_crpt.c, crypto/pkcs12/p12_key.c, crypto/x509/t_crl.c, crypto/x509/v3_bcons.c, crypto/x509/v3_bitst.c, crypto/x509/v3_conf.c, crypto/x509/v3_cpols.c, crypto/x509/v3_enum.c, crypto/x509/v3_extku.c, crypto/x509/v3_ia5.c, crypto/x509/v3_info.c, crypto/x509/v3_int.c, crypto/x509/v3_pku.c, crypto/x509/v3_san.c, crypto/x509/v3_skid.c, crypto/x509/x509spki.c, crypto/x509/x_x509a.c, include/openssl/symhacks.h
+
+/*
+ * Copyright 1999-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_octet.c, crypto/asn1/t_pkey.c, crypto/asn1/x_sig.c, crypto/asn1/x_spki.c, crypto/asn1/x_val.c, crypto/bf/bf_local.h, crypto/bf/bf_pi.h, crypto/bn/bn_word.c, crypto/cast/cast_s.h, crypto/cversion.c, crypto/des/spr.h, crypto/idea/idea_local.h, crypto/md4/md4_local.h, crypto/ripemd/rmd_local.h, crypto/ripemd/rmdconst.h, include/openssl/conf_api.h, include/openssl/ssl2.h, ssl/methods.c
+
+/*
+ * Copyright 1995-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_sign.c, crypto/asn1/d2i_pu.c, crypto/bn/bn_div.c, crypto/bn/bn_exp2.c, crypto/conf/conf_api.c, crypto/des/cfb_enc.c, crypto/evp/c_allc.c, crypto/lhash/lh_stats.c, crypto/md5/md5_local.h, crypto/pem/pem_pk8.c, crypto/rand/rand_deprecated.c, crypto/sha/sha1dgst.c, crypto/x509/t_x509.c
+
+/*
+ * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_strex.c, crypto/asn1/tasn_dec.c, crypto/asn1/tasn_fre.c, crypto/conf/conf_lib.c, crypto/dso/dso_dl.c, crypto/dso/dso_dlfcn.c, crypto/evp/evp_local.h
+
+/*
+ * Copyright 2000-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_strnid.c, crypto/asn1/asn_pack.c, crypto/asn1/p5_pbe.c, crypto/asn1/p5_pbev2.c, crypto/bio/bss_log.c, crypto/evp/evp_pbe.c, crypto/evp/evp_pkey.c, crypto/evp/p5_crpt2.c, crypto/pkcs12/p12_init.c, crypto/pkcs12/p12_kiss.c, crypto/pkcs12/p12_sbag.c, crypto/pkcs12/p12_utl.c, crypto/rsa/rsa_chk.c, crypto/x509/ext_dat.h, crypto/x509/standard_exts.h, crypto/x509/v3_genn.c, crypto/x509/v3_lib.c, crypto/x509/v3_purp.c, crypto/x509/x509_trust.c, providers/implementations/kdfs/pkcs12kdf.c
+
+/*
+ * Copyright 1999-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/a_time.c, crypto/pkcs12/p12_add.c, crypto/pkcs12/p12_crt.c, crypto/pkcs12/p12_decr.c, crypto/pkcs12/p12_mutl.c, crypto/pkcs12/p12_npas.c, crypto/pkcs7/pk7_mime.c, crypto/pkcs7/pk7_smime.c, crypto/rsa/rsa_oaep.c, crypto/x509/v3_crld.c, crypto/x509/v3_sxnet.c, crypto/x509/v3_utl.c, providers/implementations/kdfs/pbkdf1.c
+
+/*
+ * Copyright 1999-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/ameth_lib.c, crypto/camellia/camellia.c, crypto/dh/dh_ameth.c, crypto/dsa/dsa_ameth.c, crypto/objects/obj_xref.c, crypto/ts/ts_rsp_sign.c
+
+/*
+ * Copyright 2006-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn1_err.c, crypto/cmp/cmp_err.c, crypto/http/http_err.c, include/openssl/asn1err.h, include/openssl/cmperr.h, include/openssl/httperr.h, include/openssl/sslerr.h, ssl/ssl_err.c
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn1_gen.c, crypto/bn/bn_nist.c, crypto/ui/ui_util.c
+
+/*
+ * Copyright 2002-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn1_item_list.c, crypto/asn1/x_long.c
+
+/*
+ * Copyright 2000-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn1_item_list.h, crypto/asn1/tasn_enc.c, crypto/asn1/tasn_new.c, crypto/asn1/tasn_prn.c, crypto/bn/bn_ctx.c, crypto/dh/dh_asn1.c, crypto/dso/dso_vms.c, crypto/ocsp/ocsp_lib.c, crypto/ocsp/v3_ocsp.c, crypto/pkcs7/pk7_asn1.c, crypto/rsa/rsa_asn1.c, include/internal/dso.h
+
+/*
+ * Copyright 2000-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn1_local.h, crypto/bn/bn_const.c, crypto/bn/bn_sparc.c, crypto/evp/legacy_wp.c, crypto/sparcv9cap.c, crypto/whrlpool/wp_block.c, include/openssl/dtls1.h
+
+/*
+ * Copyright 2005-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn_mime.c, crypto/asn1/bio_ndef.c
+
+/*
+ * Copyright 2008-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/asn_mstbl.c, ssl/ssl_conf.c
+
+/*
+ * Copyright 2012-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/bio_asn1.c, crypto/dh/dh_pmeth.c, crypto/dsa/dsa_pmeth.c, crypto/dsa/dsa_prn.c, crypto/ec/ec_ameth.c, crypto/ec/ec_pmeth.c, crypto/engine/tb_pkmeth.c, crypto/evp/e_camellia.c, crypto/evp/pmeth_check.c, crypto/rsa/rsa_prn.c, crypto/ts/ts_rsp_verify.c, crypto/ts/ts_verify_ctx.c, include/openssl/ts.h
+
+/*
+ * Copyright 2006-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/charmap.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by crypto/asn1/charmap.pl
+ *
+ * Copyright 2000-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/d2i_param.c, crypto/asn1_dsa.c, crypto/core_algorithm.c, crypto/core_fetch.c, crypto/err/err_blocks.c, crypto/ess/ess_asn1.c, crypto/evp/evp_utils.c, crypto/evp/legacy_meth.h, crypto/evp/legacy_sha.c, crypto/ffc/ffc_key_generate.c, crypto/ffc/ffc_params_validate.c, crypto/pem/pem_local.h, crypto/provider_local.h, crypto/provider_predefined.c, crypto/thread/api.c, include/crypto/asn1_dsa.h, include/crypto/cmll_platform.h, include/crypto/des_platform.h, include/crypto/encoder.h, include/crypto/ess.h, include/crypto/security_bits.h, include/crypto/siv.h, include/internal/namemap.h, include/internal/sha3.h, include/internal/symhacks.h, include/internal/thread.h, include/openssl/encoder.h, include/openssl/opensslconf.h, providers/common/bio_prov.c, providers/common/include/prov/bio.h, providers/common/include/prov/providercommon.h, providers/implementations/ciphers/cipher_aes_gcm.h, providers/implementations/ciphers/cipher_aes_gcm_siv.h, providers/implementations/ciphers/cipher_aes_gcm_siv_hw.c, providers/implementations/ciphers/cipher_aes_siv.h, providers/implementations/ciphers/cipher_aes_siv_hw.c, providers/implementations/ciphers/cipher_aes_xts.h, providers/implementations/ciphers/cipher_aes_xts_fips.c, providers/implementations/ciphers/cipher_aria_ccm_hw.c, providers/implementations/ciphers/cipher_aria_gcm_hw.c, providers/implementations/ciphers/cipher_blowfish.c, providers/implementations/ciphers/cipher_camellia.c, providers/implementations/ciphers/cipher_camellia.h, providers/implementations/ciphers/cipher_cast5.c, providers/implementations/ciphers/cipher_chacha20.h, providers/implementations/ciphers/cipher_chacha20_hw.c, providers/implementations/ciphers/cipher_des.h, providers/implementations/ciphers/ciphercommon.c, providers/implementations/ciphers/ciphercommon_ccm.c, providers/implementations/ciphers/ciphercommon_ccm_hw.c, providers/implementations/ciphers/ciphercommon_hw.c, providers/implementations/ciphers/ciphercommon_local.h, providers/implementations/digests/digestcommon.c, providers/implementations/digests/md5_sha1_prov.c, providers/implementations/digests/mdc2_prov.c, providers/implementations/digests/sm3_prov.c, providers/implementations/include/prov/digestcommon.h, providers/implementations/kdfs/pbkdf2.h, providers/implementations/kdfs/pbkdf2_fips.c, providers/implementations/rands/seeding/rand_vxworks.c
+
+/*
+ * Copyright 2019-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/f_int.c, crypto/asn1/f_string.c, crypto/asn1/x_info.c, crypto/asn1/x_pkey.c, crypto/bf/bf_cfb64.c, crypto/bf/bf_ecb.c, crypto/bf/bf_enc.c, crypto/bf/bf_ofb64.c, crypto/bf/bf_skey.c, crypto/bn/bn_add.c, crypto/bn/bn_conv.c, crypto/bn/bn_gcd.c, crypto/bn/bn_mpi.c, crypto/buffer/buffer.c, crypto/cast/c_cfb64.c, crypto/cast/c_ecb.c, crypto/cast/c_enc.c, crypto/cast/c_ofb64.c, crypto/cast/c_skey.c, crypto/des/cbc_cksm.c, crypto/des/cbc_enc.c, crypto/des/cfb64ede.c, crypto/des/cfb64enc.c, crypto/des/des_enc.c, crypto/des/ecb3_enc.c, crypto/des/ecb_enc.c, crypto/des/fcrypt_b.c, crypto/des/ofb64ede.c, crypto/des/ofb64enc.c, crypto/des/ofb_enc.c, crypto/des/pcbc_enc.c, crypto/des/qud_cksm.c, crypto/des/set_key.c, crypto/des/str2key.c, crypto/des/xcbc_enc.c, crypto/dh/dh_prn.c, crypto/dsa/dsa_vrf.c, crypto/evp/encode.c, crypto/evp/p_open.c, crypto/hmac/hmac_local.h, crypto/idea/i_cbc.c, crypto/idea/i_ecb.c, crypto/idea/i_skey.c, crypto/md2/md2_dgst.c, crypto/md2/md2_one.c, crypto/md4/md4_dgst.c, crypto/md4/md4_one.c, crypto/md5/md5_dgst.c, crypto/md5/md5_one.c, crypto/mdc2/mdc2_one.c, crypto/mdc2/mdc2dgst.c, crypto/objects/obj_lib.c, crypto/pem/pem_oth.c, crypto/rc2/rc2_cbc.c, crypto/rc2/rc2_ecb.c, crypto/rc2/rc2cfb64.c, crypto/rc2/rc2ofb64.c, crypto/rc4/rc4_enc.c, crypto/rc4/rc4_skey.c, crypto/rc5/rc5_ecb.c, crypto/rc5/rc5_enc.c, crypto/rc5/rc5_skey.c, crypto/rc5/rc5cfb64.c, crypto/rc5/rc5ofb64.c, crypto/ripemd/rmd_dgst.c, crypto/ripemd/rmd_one.c, crypto/rsa/rsa_crpt.c, crypto/rsa/rsa_none.c, crypto/rsa/rsa_saos.c, crypto/sha/sha_local.h, crypto/x509/x509_d2.c, crypto/x509/x509_obj.c, crypto/x509/x509_r2x.c, crypto/x509/x509_v3.c, crypto/x509/x509name.c, crypto/x509/x509rset.c, crypto/x509/x_attrib.c, include/openssl/blowfish.h, include/openssl/cast.h, include/openssl/des.h, include/openssl/idea.h, include/openssl/md2.h, include/openssl/md4.h, include/openssl/md5.h, include/openssl/mdc2.h, include/openssl/rc2.h, include/openssl/rc4.h, include/openssl/rc5.h, include/openssl/ripemd.h, providers/implementations/ciphers/cipher_desx_hw.c, providers/implementations/ciphers/cipher_tdes_default.h, providers/implementations/ciphers/cipher_tdes_hw.c, providers/implementations/ciphers/cipher_tdes_wrap_hw.c, ssl/ssl_rsa_legacy.c
+
+/*
+ * Copyright 1995-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/nsseq.c, crypto/asn1/t_bitst.c, include/openssl/ebcdic.h
+
+/*
+ * Copyright 1999-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/p5_scrypt.c, crypto/ec/ec_kmeth.c, crypto/evp/cmeth_lib.c, crypto/evp/e_chacha20_poly1305.c, crypto/packet.c, include/crypto/asn1.h, include/internal/numbers.h, include/internal/packet.h, include/internal/statem.h, ssl/statem/statem_local.h
+
+/*
+ * Copyright 2015-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/p8_pkey.c, crypto/asn1/tbl_standard.h, crypto/dsa/dsa_asn1.c, crypto/pkcs12/p12_attr.c, crypto/pkcs7/pk7_attr.c, crypto/x509/v3_prn.c
+
+/*
+ * Copyright 1999-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/standard_methods.h, crypto/cms/cms_dh.c, crypto/cms/cms_ec.c, crypto/cms/cms_rsa.c, crypto/ec/ecx_meth.c, crypto/engine/tb_asnmth.c, crypto/evp/asymcipher.c, crypto/evp/m_sigver.c, crypto/evp/pmeth_gn.c, crypto/rsa/rsa_ameth.c, crypto/rsa/rsa_pmeth.c, crypto/ts/ts_conf.c
+
+/*
+ * Copyright 2006-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/tasn_scn.c, include/openssl/cmac.h
+
+/*
+ * Copyright 2010-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/tasn_typ.c, crypto/asn1/x_bignum.c, crypto/bn/bn_kron.c, crypto/dso/dso_openssl.c, crypto/ebcdic.c, crypto/ocsp/ocsp_asn.c, crypto/x509/x_exten.c
+
+/*
+ * Copyright 2000-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/tasn_utl.c, crypto/dso/dso_lib.c, crypto/ocsp/ocsp_ext.c, crypto/ocsp/ocsp_prn.c, crypto/pkcs12/p12_asn.c
+
+/*
+ * Copyright 2000-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/x_algor.c, crypto/objects/o_names.c
+
+/*
+ * Copyright 1998-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/asn1/x_int64.c, include/crypto/siphash.h, include/internal/nelem.h, include/internal/tlsgroups.h
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/async/arch/async_null.c, crypto/async/arch/async_null.h, crypto/async/arch/async_posix.c, crypto/async/arch/async_posix.h, crypto/async/arch/async_win.c, crypto/async/arch/async_win.h, crypto/async/async.c, crypto/x509/v3_tlsf.c, include/openssl/async.h, ssl/statem/statem.c
+
+/*
+ * Copyright 2015-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/async/async_err.c, crypto/buffer/buf_err.c, crypto/comp/comp_err.c, crypto/crmf/crmf_err.c, crypto/ct/ct_err.c, crypto/dso/dso_err.c, crypto/encode_decode/decoder_err.c, crypto/encode_decode/encoder_err.c, crypto/engine/eng_err.c, crypto/ess/ess_err.c, crypto/objects/obj_err.c, crypto/ocsp/ocsp_err.c, crypto/pem/pem_err.c, crypto/pkcs7/pkcs7err.c, crypto/property/property_err.c, crypto/rsa/rsa_err.c, crypto/sm2/sm2_err.c, crypto/store/store_err.c, crypto/ts/ts_err.c, crypto/ui/ui_err.c, include/openssl/asyncerr.h, include/openssl/buffererr.h, include/openssl/comperr.h, include/openssl/crmferr.h, include/openssl/cterr.h, include/openssl/decodererr.h, include/openssl/encodererr.h, include/openssl/engineerr.h, include/openssl/esserr.h, include/openssl/objectserr.h, include/openssl/ocsperr.h, include/openssl/pemerr.h, include/openssl/pkcs7err.h, include/openssl/rsaerr.h, include/openssl/storeerr.h, include/openssl/tserr.h, include/openssl/uierr.h, include/openssl/x509err.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/async/async_local.h, crypto/chacha/chacha_enc.c, crypto/ec/ecdsa_sign.c, crypto/md5/md5_sha1.c, ssl/ssl_mcnf.c
+
+/*
+ * Copyright 2015-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/async/async_wait.c, crypto/ct/ct_oct.c, crypto/ct/ct_policy.c, crypto/ct/ct_prn.c, crypto/dh/dh_local.h, crypto/dh/dh_meth.c, crypto/dsa/dsa_meth.c, crypto/rsa/rsa_meth.c, crypto/store/store_strings.c, providers/implementations/digests/blake2_impl.h
+
+/*
+ * Copyright 2016-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bf_prefix.c, crypto/conf/conf_local.h, crypto/evp/mac_lib.c, crypto/modes/siv128.c, include/crypto/ec.h, include/crypto/lhash.h, include/internal/sslconf.h, providers/implementations/macs/blake2b_mac.c, providers/implementations/macs/blake2s_mac.c
+
+/*
+ * Copyright 2018-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bf_readbuff.c, crypto/evp/ctrl_params_translate.c, providers/implementations/ciphers/cipher_sm4_ccm_hw.c, providers/implementations/ciphers/cipher_sm4_gcm_hw.c
+
+/*
+ * Copyright 2021-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bio_addr.c, crypto/bio/bio_meth.c, crypto/init.c, crypto/poly1305/poly1305_ieee754.c, crypto/store/store_lib.c, crypto/threads_none.c, crypto/threads_pthread.c, crypto/threads_win.c, include/internal/refcount.h, providers/implementations/digests/blake2b_prov.c, providers/implementations/digests/blake2s_prov.c, providers/implementations/kdfs/hkdf.c, ssl/statem/extensions.c, ssl/statem/extensions_clnt.c, ssl/statem/extensions_srvr.c
+
+/*
+ * Copyright 2016-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bio_err.c, crypto/bn/bn_err.c, crypto/cpt_err.c, crypto/x509/v3err.c, include/openssl/bioerr.h, include/openssl/bnerr.h, include/openssl/cryptoerr.h, include/openssl/pkcs12err.h, include/openssl/x509v3err.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bio_local.h, crypto/pem/pvkfmt.c, crypto/rsa/rsa_pss.c, crypto/whrlpool/wp_dgst.c, ssl/d1_lib.c, ssl/d1_msg.c
+
+/*
+ * Copyright 2005-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bio_print.c
+
+/*
+ * Copyright Patrick Powell 1995
+ * This code is based on code written by Patrick Powell <papowell@astart.com>
+ * It may be used for any purpose as long as this notice remains intact
+ * on all source code distributions.
+ */
+
+Files: crypto/bio/bio_sock2.c, crypto/dllmain.c, crypto/o_fopen.c, include/internal/bio.h
+
+/*
+ * Copyright 2016-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bss_bio.c, crypto/x509/v3_akid.c, include/crypto/md32_common.h
+
+/*
+ * Copyright 1999-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bss_core.c, crypto/self_test_core.c, include/crypto/dsa.h, include/internal/core.h, providers/common/capabilities.c, providers/common/include/prov/provider_util.h, providers/common/provider_util.c, providers/implementations/ciphers/cipher_sm4.h, providers/implementations/ciphers/cipher_tdes.c, providers/implementations/ciphers/cipher_tdes_default.c, providers/implementations/include/prov/ciphercommon_ccm.h, providers/implementations/include/prov/ciphercommon_gcm.h
+
+/*
+ * Copyright 2019-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bss_dgram.c, ssl/record/rec_layer_d1.c, ssl/statem/statem_dtls.c
+
+/*
+ * Copyright 2005-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/bss_dgram_pair.c, crypto/evp/mac_meth.c, crypto/hpke/hpke_util.c, crypto/loongarch_arch.h, crypto/loongarchcap.c, crypto/time.c, include/crypto/context.h, include/crypto/riscv_arch.h, include/internal/bio_tfo.h, include/internal/event_queue.h, include/internal/packet_quic.h, include/internal/quic_ackm.h, include/internal/quic_cc.h, include/internal/quic_cfq.h, include/internal/quic_record_util.h, include/internal/quic_rx_depack.h, include/internal/quic_sf_list.h, include/internal/quic_statm.h, include/internal/quic_tls.h, include/internal/quic_tserver.h, include/internal/quic_types.h, include/internal/quic_wire_pkt.h, include/internal/recordmethod.h, include/internal/ring_buf.h, include/internal/ssl3_cbc.h, include/internal/time.h, providers/implementations/ciphers/cipher_aes_ccm_hw_rv32i.inc, providers/implementations/ciphers/cipher_aes_ccm_hw_rv64i.inc, providers/implementations/ciphers/cipher_aes_gcm_hw_rv32i.inc, providers/implementations/ciphers/cipher_aes_gcm_hw_rv64i.inc, providers/implementations/ciphers/cipher_aes_hw_rv32i.inc, providers/implementations/ciphers/cipher_aes_hw_rv64i.inc, providers/implementations/ciphers/cipher_sm4_xts.c, providers/implementations/ciphers/cipher_sm4_xts.h, providers/implementations/kdfs/hmacdrbg_kdf.c, providers/implementations/kem/ec_kem.c, providers/implementations/kem/ecx_kem.c, providers/implementations/storemgmt/winstore_store.c, ssl/event_queue.c, ssl/priority_queue.c, ssl/quic/quic_ackm.c, ssl/quic/quic_cfq.c, ssl/quic/quic_method.c, ssl/quic/quic_reactor.c, ssl/quic/quic_record_util.c, ssl/quic/quic_sf_list.c, ssl/quic/quic_sstream.c, ssl/quic/quic_statm.c, ssl/quic/quic_txpim.c, ssl/quic/quic_wire_pkt.c, ssl/quic/uint_set.c, ssl/record/methods/tls_multib.c, ssl/ssl_cert_comp.c
+
+/*
+ * Copyright 2022-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bio/ossl_core_bio.c, include/openssl/prov_ssl.h, providers/implementations/ciphers/cipher_sm4_ccm.c, providers/implementations/ciphers/cipher_sm4_gcm.c, providers/implementations/encode_decode/encode_key2blob.c, providers/implementations/include/prov/names.h
+
+/*
+ * Copyright 2021-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/asm/ia64.S
+
+// Copyright 2001-2018 The OpenSSL Project Authors. All Rights Reserved.
+//
+// Licensed under the Apache License 2.0 (the "License").  You may not use
+// this file except in compliance with the License.  You can obtain a copy
+// in the file LICENSE in the source distribution or at
+// https://www.openssl.org/source/license.html
+
+
+Files: crypto/bn/asm/s390x.S
+
+// ====================================================================
+// Copyright 2007-2016 The OpenSSL Project Authors. All Rights Reserved.
+//
+// Licensed under the Apache License 2.0 (the "License").  You may not use
+// this file except in compliance with the License.  You can obtain a copy
+// in the file LICENSE in the source distribution or at
+// https://www.openssl.org/source/license.html
+// ====================================================================
+
+
+Files: crypto/bn/asm/sparcv8.S, crypto/bn/asm/sparcv8plus.S
+
+/*
+ * ====================================================================
+ * Copyright 1999-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ * ====================================================================
+ */
+
+Files: crypto/bn/asm/x86_64-gcc.c
+
+/*
+ * Copyright 2002-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_blind.c, crypto/comp/c_zlib.c, crypto/cpuid.c
+
+/*
+ * Copyright 1998-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_dh.c, crypto/bn/bn_srp.c, crypto/x509/x509_local.h, include/crypto/bn_srp.h
+
+/*
+ * Copyright 2014-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_gf2m.c, crypto/ec/ec2_smpl.c, crypto/ec/ecdh_ossl.c
+
+/*
+ * Copyright 2002-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_intern.c, crypto/modes/ocb128.c
+
+/*
+ * Copyright 2014-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_mod.c, crypto/des/fcrypt.c
+
+/*
+ * Copyright 1998-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_mul.c, crypto/bn/bn_sqr.c, crypto/evp/c_alld.c, include/openssl/buffer.h
+
+/*
+ * Copyright 1995-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_ppc.c, crypto/ppccap.c
+
+/*
+ * Copyright 2009-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_prime.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by crypto/bn/bn_prime.pl
+ *
+ * Copyright 1998-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_print.c, crypto/x509/x509_ext.c, include/openssl/txt_db.h
+
+/*
+ * Copyright 1995-2017 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_rsa_fips186_4.c
+
+/*
+ * Copyright 2018-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2018-2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_s390x.c, crypto/ec/ecp_nistp384.c, crypto/ec/ecp_sm2p256_table.c, crypto/err/err_save.c, crypto/rand/rand_uniform.c, crypto/sha/sha_riscv.c, crypto/sm3/sm3_riscv.c, crypto/x509/v3_group_ac.c, crypto/x509/v3_ind_iss.c, crypto/x509/v3_no_ass.c, crypto/x509/v3_no_rev_avail.c, crypto/x509/v3_single_use.c, crypto/x509/v3_soa_id.c, include/internal/params.h, include/internal/quic_engine.h, include/internal/quic_port.h, include/internal/quic_predef.h, include/internal/quic_thread_assist.h, include/internal/ssl.h, include/openssl/e_ostime.h, providers/common/include/prov/fipscommon.h, providers/implementations/ciphers/cipher_aes_hw_armv8.inc, providers/implementations/ciphers/cipher_sm4_ccm_hw_rv64i.inc, providers/implementations/ciphers/cipher_sm4_gcm_hw_rv64i.inc, providers/implementations/ciphers/cipher_sm4_hw_rv64i.inc, providers/implementations/ciphers/cipher_sm4_xts_hw_rv64i.inc, ssl/quic/quic_engine.c, ssl/quic/quic_engine_local.h, ssl/quic/quic_lcidm.c, ssl/quic/quic_port_local.h, ssl/quic/quic_srt_gen.c, ssl/quic/quic_types.c
+
+/*
+ * Copyright 2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_sqrt.c, crypto/dso/dso_win32.c, crypto/rand/rand_egd.c
+
+/*
+ * Copyright 2000-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/bn_x931p.c, crypto/dh/dh_rfc5114.c, crypto/ec/ecp_nistputil.c, crypto/evp/e_rc4_hmac_md5.c, crypto/rand/rand_meth.c, providers/implementations/ciphers/cipher_aes_cbc_hmac_sha1_hw.c, providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c
+
+/*
+ * Copyright 2011-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/bn/rsaz_exp.c
+
+/*
+ * Copyright 2013-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2012, Intel Corporation. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Shay Gueron (1, 2), and Vlad Krasnov (1)
+ * (1) Intel Corporation, Israel Development Center, Haifa, Israel
+ * (2) University of Haifa, Israel
+ */
+
+Files: crypto/bn/rsaz_exp.h
+
+/*
+ * Copyright 2013-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2020, Intel Corporation. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Shay Gueron (1, 2), and Vlad Krasnov (1)
+ * (1) Intel Corporation, Israel Development Center, Haifa, Israel
+ * (2) University of Haifa, Israel
+ */
+
+Files: crypto/bn/rsaz_exp_x2.c
+
+/*
+ * Copyright 2020-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2020-2021, Intel Corporation. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ *
+ * Originally written by Sergey Kirillov and Andrey Matyukov.
+ * Special thanks to Ilya Albrekht for his valuable hints.
+ * Intel Corporation
+ *
+ */
+
+Files: crypto/bsearch.c, include/openssl/ossl_typ.h
+
+/*
+ * Copyright 2019 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/camellia/camellia.c, crypto/camellia/cmll_local.h
+
+/* ====================================================================
+ * Copyright 2006 NTT (Nippon Telegraph and Telephone Corporation) .
+ * ALL RIGHTS RESERVED.
+ *
+ * Intellectual Property information for Camellia:
+ *     http://info.isl.ntt.co.jp/crypt/eng/info/chiteki.html
+ *
+ * News Release for Announcement of Camellia open source:
+ *     http://www.ntt.co.jp/news/news06e/0604/060413a.html
+ *
+ * The Camellia Code included herein is developed by
+ * NTT (Nippon Telegraph and Telephone Corporation), and is contributed
+ * to the OpenSSL project.
+ */
+
+Files: crypto/chacha/chacha_enc.c
+
+/* Adapted from the public domain code by D. Bernstein from SUPERCOP. */
+
+Files: crypto/chacha/chacha_ppc.c
+
+/*
+ * Copyright 2009-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/chacha/chacha_riscv.c
+
+/*
+ * This file is dual-licensed, meaning that you can use it under your
+ * choice of either of the following two licenses:
+ *
+ * Copyright 2023-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * or
+ *
+ * Copyright (c) 2023, Jerry Shih <jerry.shih@sifive.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Files: crypto/cmac/cmac.c, crypto/modes/gcm128.c
+
+/*
+ * Copyright 2010-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_asn.c, crypto/cmp/cmp_client.c, crypto/cmp/cmp_ctx.c, crypto/cmp/cmp_local.h, crypto/cmp/cmp_msg.c
+
+/*
+ * Copyright 2007-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2019
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_genm.c
+
+/*
+ * Copyright 2022-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Siemens AG 2022
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_hdr.c
+
+/*
+ * Copyright 2007-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2019
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_http.c, crypto/cmp/cmp_protect.c, crypto/cmp/cmp_server.c, crypto/cmp/cmp_status.c
+
+/*
+ * Copyright 2007-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2019
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_util.c, include/openssl/cmp_util.h
+
+/*
+ * Copyright 2007-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2019
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cmp/cmp_vfy.c
+
+/*
+ * Copyright 2007-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2020
+ * Copyright Siemens AG 2015-2020
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_asn1.c, crypto/cms/cms_att.c, crypto/cms/cms_env.c, crypto/cms/cms_lib.c, crypto/cms/cms_local.h, crypto/cms/cms_sd.c, crypto/cms/cms_smime.c
+
+/*
+ * Copyright 2008-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_cd.c, crypto/cms/cms_io.c
+
+/*
+ * Copyright 2008-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_dd.c, crypto/cms/cms_enc.c, crypto/cms/cms_ess.c, crypto/modes/cbc128.c, crypto/modes/cfb128.c, crypto/modes/ctr128.c, crypto/modes/ofb128.c
+
+/*
+ * Copyright 2008-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_err.c, crypto/conf/conf_err.c, crypto/dh/dh_err.c, crypto/dsa/dsa_err.c, crypto/ec/ec_err.c, crypto/evp/evp_err.c, crypto/pkcs12/pk12err.c, crypto/rand/rand_err.c, crypto/x509/x509_err.c, include/openssl/cmserr.h, include/openssl/conferr.h, include/openssl/dherr.h, include/openssl/dsaerr.h, include/openssl/ecerr.h, include/openssl/evperr.h, include/openssl/proverr.h, include/openssl/randerr.h, providers/common/provider_err.c
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_kari.c, crypto/evp/e_aes_cbc_hmac_sha256.c
+
+/*
+ * Copyright 2013-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/cms/cms_pwri.c
+
+/*
+ * Copyright 2009-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/comp/c_brotli.c
+
+/*
+ * Copyright 1998-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Uses brotli compression library from https://github.com/google/brotli
+ */
+
+Files: crypto/comp/c_zstd.c
+
+/*
+ * Copyright 1998-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Uses zstd compression library from https://github.com/facebook/zstd
+ * Requires version 1.4.x (latest as of this writing is 1.4.5)
+ * Using custom free functions require static linking, so that is disabled when
+ * using the shared library.
+ */
+
+Files: crypto/comp/comp_lib.c, crypto/des/rand_key.c
+
+/*
+ * Copyright 1998-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/comp/comp_local.h, include/openssl/asn1_mac.h
+
+/*
+ * Copyright 2015-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/conf/conf_def.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by crypto/conf/keysets.pl
+ *
+ * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/conf/conf_mod.c, crypto/conf/conf_sap.c, crypto/ec/ecdsa_ossl.c
+
+/*
+ * Copyright 2002-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/conf/conf_ssl.c, crypto/ct/ct_local.h, crypto/ec/ecdh_kdf.c, crypto/engine/tb_eckey.c, crypto/evp/legacy_md2.c, crypto/evp/legacy_md4.c, crypto/evp/legacy_md5.c, crypto/evp/legacy_md5_sha1.c, crypto/evp/legacy_mdc2.c, crypto/evp/pbe_scrypt.c, crypto/ocsp/ocsp_local.h, crypto/poly1305/poly1305.c, crypto/ts/ts_local.h, include/crypto/bn_dh.h, include/crypto/chacha.h, include/crypto/poly1305.h, include/internal/dane.h
+
+/*
+ * Copyright 2015-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/context.c, crypto/encode_decode/encoder_lib.c, crypto/ess/ess_lib.c, crypto/evp/evp_fetch.c, crypto/evp/keymgmt_lib.c, crypto/evp/keymgmt_meth.c, crypto/provider_core.c, include/crypto/aes_platform.h, include/crypto/rsa.h, include/internal/thread_arch.h, include/openssl/self_test.h, providers/fips/fipsprov.c, providers/fips/self_test_data.inc, providers/fips/self_test_kats.c, providers/implementations/ciphers/cipher_aes.h, providers/implementations/ciphers/cipher_aes_gcm_hw.c, providers/implementations/ciphers/cipher_aes_ocb_hw.c, providers/implementations/ciphers/cipher_aes_xts_hw.c, providers/implementations/ciphers/cipher_sm4_hw.c, providers/implementations/signature/rsa_sig.c
+
+/*
+ * Copyright 2019-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/core_namemap.c, crypto/ec/ecp_s390x_nistp.c, crypto/encode_decode/encoder_local.h, crypto/encode_decode/encoder_meth.c, crypto/encode_decode/encoder_pkey.c, crypto/evp/exchange.c, crypto/evp/kdf_meth.c, crypto/evp/legacy_blake2.c, crypto/ffc/ffc_key_validate.c, crypto/ffc/ffc_params.c, crypto/ffc/ffc_params_generate.c, crypto/info.c, crypto/initthread.c, crypto/provider.c, crypto/provider_child.c, crypto/provider_conf.c, crypto/punycode.c, crypto/thread/arch.c, crypto/thread/arch/thread_none.c, crypto/thread/arch/thread_posix.c, crypto/thread/arch/thread_win.c, crypto/thread/internal.c, crypto/trace.c, include/crypto/punycode.h, include/internal/endian.h, include/internal/ffc.h, include/internal/provider.h, include/openssl/core.h, include/openssl/core_dispatch.h, include/openssl/fips_names.h, include/openssl/macros.h, include/openssl/provider.h, include/openssl/trace.h, providers/common/include/prov/securitycheck.h, providers/defltprov.c, providers/fips/self_test.c, providers/implementations/asymciphers/rsa_enc.c, providers/implementations/ciphers/cipher_aes_cbc_hmac_sha.c, providers/implementations/ciphers/cipher_aes_ccm.c, providers/implementations/ciphers/cipher_aes_ccm_hw.c, providers/implementations/ciphers/cipher_aes_gcm.c, providers/implementations/ciphers/cipher_aes_gcm_hw_armv8.inc, providers/implementations/ciphers/cipher_aes_gcm_siv.c, providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c, providers/implementations/ciphers/cipher_aes_ocb.c, providers/implementations/ciphers/cipher_aes_siv.c, providers/implementations/ciphers/cipher_aes_wrp.c, providers/implementations/ciphers/cipher_aes_xts.c, providers/implementations/ciphers/cipher_aria_ccm.c, providers/implementations/ciphers/cipher_aria_gcm.c, providers/implementations/ciphers/cipher_chacha20.c, providers/implementations/ciphers/cipher_chacha20_poly1305.c, providers/implementations/ciphers/cipher_chacha20_poly1305.h, providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c, providers/implementations/ciphers/cipher_des.c, providers/implementations/ciphers/cipher_rc2.c, providers/implementations/ciphers/cipher_rc4.c, providers/implementations/ciphers/cipher_rc4_hmac_md5.c, providers/implementations/ciphers/cipher_rc4_hmac_md5.h, providers/implementations/ciphers/cipher_rc5.c, providers/implementations/ciphers/cipher_tdes.h, providers/implementations/ciphers/cipher_tdes_common.c, providers/implementations/ciphers/ciphercommon_block.c, providers/implementations/ciphers/ciphercommon_gcm.c, providers/implementations/digests/blake2_prov.c, providers/implementations/digests/sha2_prov.c, providers/implementations/digests/sha3_prov.c, providers/implementations/exchange/dh_exch.c, providers/implementations/include/prov/blake2.h, providers/implementations/include/prov/ciphercommon.h, providers/implementations/include/prov/ciphercommon_aead.h, providers/implementations/include/prov/implementations.h, providers/implementations/keymgmt/dh_kmgmt.c, providers/implementations/keymgmt/dsa_kmgmt.c, providers/implementations/keymgmt/kdf_legacy_kmgmt.c, providers/implementations/keymgmt/rsa_kmgmt.c, providers/implementations/signature/dsa_sig.c, providers/implementations/signature/mac_legacy_sig.c, providers/legacyprov.c
+
+/*
+ * Copyright 2019-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/crmf/crmf_asn.c, crypto/crmf/crmf_local.h, crypto/crmf/crmf_pbm.c
+
+/*-
+ * Copyright 2007-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2019
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * CRMF implementation by Martin Peylo, Miikka Viljanen, and David von Oheimb.
+ */
+
+Files: crypto/crmf/crmf_lib.c
+
+/*-
+ * Copyright 2007-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Nokia 2007-2018
+ * Copyright Siemens AG 2015-2019
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * CRMF implementation by Martin Peylo, Miikka Viljanen, and David von Oheimb.
+ */
+
+Files: crypto/cryptlib.c
+
+/*
+ * Copyright 1998-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ct/ct_b64.c, crypto/ct/ct_log.c, crypto/ct/ct_sct.c, crypto/ct/ct_sct_ctx.c, crypto/ct/ct_vfy.c, crypto/ct/ct_x509v3.c, crypto/poly1305/poly1305_base2_44.c, crypto/store/store_init.c, crypto/store/store_register.c, include/crypto/async.h, include/crypto/cryptlib.h, include/crypto/err.h, include/crypto/objects.h, include/crypto/store.h, include/internal/comp.h, include/internal/conf.h, include/internal/deprecated.h, include/internal/err.h, include/openssl/kdf.h
+
+/*
+ * Copyright 2016-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ctype.c, crypto/ec/curve448/curve448_local.h, crypto/s390x_arch.h, crypto/x509/v3_admis.c, providers/implementations/kdfs/scrypt.c, ssl/ssl_cert_table.h
+
+/*
+ * Copyright 2017-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/der_writer.c, crypto/ec/ecx_backend.h, crypto/rsa/rsa_mp_names.c, crypto/rsa/rsa_schemes.c, crypto/threads_lib.c, providers/common/der/der_dsa_key.c, providers/common/der/der_dsa_sig.c, providers/common/der/der_ec_key.c, providers/common/der/der_ec_sig.c, providers/common/der/der_ecx_key.c, providers/common/provider_ctx.c, providers/prov_running.c, providers/stores.inc
+
+/*
+ * Copyright 2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/des/ncbc_enc.c, crypto/rc4/rc4_local.h
+
+/*
+ * Copyright 1998-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/deterministic_nonce.c, crypto/hpke/hpke.c, crypto/sleep.c, include/crypto/sm4_platform.h, include/internal/quic_channel.h, include/internal/quic_demux.h, include/internal/quic_error.h, include/internal/quic_fc.h, include/internal/quic_fifd.h, include/internal/quic_reactor.h, include/internal/quic_record_rx.h, include/internal/quic_record_tx.h, include/internal/quic_ssl.h, include/internal/quic_txp.h, include/internal/quic_txpim.h, include/openssl/hpke.h, include/openssl/quic.h, providers/implementations/ciphers/cipher_sm4_xts_hw.c, ssl/quic/quic_channel.c, ssl/quic/quic_demux.c, ssl/quic/quic_fc.c, ssl/quic/quic_fifd.c, ssl/quic/quic_impl.c, ssl/quic/quic_local.h, ssl/quic/quic_record_rx.c, ssl/quic/quic_record_tx.c, ssl/quic/quic_rx_depack.c, ssl/quic/quic_tls.c, ssl/quic/quic_tserver.c, ssl/quic/quic_txp.c, ssl/quic/quic_wire.c, ssl/record/methods/recmethod_local.h, ssl/record/methods/ssl3_meth.c, ssl/record/methods/tls13_meth.c, ssl/record/methods/tls1_meth.c, ssl/record/methods/tls_common.c, ssl/record/methods/tlsany_meth.c
+
+/*
+ * Copyright 2022-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/dh/dh_backend.c, crypto/dsa/dsa_backend.c, crypto/ec/ecx_key.c, crypto/encode_decode/decoder_lib.c, crypto/encode_decode/decoder_meth.c, crypto/encode_decode/decoder_pkey.c, crypto/evp/ec_ctrl.c, crypto/evp/evp_rand.c, crypto/evp/kem.c, crypto/ffc/ffc_backend.c, crypto/rand/prov_seed.c, crypto/store/store_meth.c, crypto/store/store_result.c, include/crypto/decoder.h, include/crypto/ecx.h, include/crypto/types.h, providers/baseprov.c, providers/common/provider_seeding.c, providers/common/securitycheck.c, providers/common/securitycheck_default.c, providers/common/securitycheck_fips.c, providers/decoders.inc, providers/encoders.inc, providers/implementations/asymciphers/sm2_enc.c, providers/implementations/ciphers/cipher_cts.h, providers/implementations/ciphers/cipher_null.c, providers/implementations/encode_decode/decode_epki2pki.c, providers/implementations/encode_decode/decode_msblob2key.c, providers/implementations/encode_decode/decode_pem2der.c, providers/implementations/encode_decode/decode_pvk2key.c, providers/implementations/encode_decode/decode_spki2typespki.c, providers/implementations/encode_decode/encode_key2ms.c, providers/implementations/encode_decode/encode_key2text.c, providers/implementations/exchange/ecdh_exch.c, providers/implementations/exchange/ecx_exch.c, providers/implementations/include/prov/kdfexchange.h, providers/implementations/include/prov/macsignature.h, providers/implementations/kem/rsa_kem.c, providers/implementations/keymgmt/ec_kmgmt.c, providers/implementations/keymgmt/mac_legacy_kmgmt.c, providers/implementations/rands/seed_src.c, providers/implementations/rands/test_rng.c, providers/implementations/signature/ecdsa_sig.c, providers/implementations/signature/eddsa_sig.c, providers/implementations/signature/sm2_sig.c, providers/implementations/storemgmt/file_store.c, providers/implementations/storemgmt/file_store_any2obj.c, providers/nullprov.c
+
+/*
+ * Copyright 2020-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/dh/dh_group_params.c, crypto/siphash/siphash.c, include/crypto/ctype.h
+
+/*
+ * Copyright 2017-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/dh/dh_kdf.c
+
+/*
+ * Copyright 2013-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/dsa/dsa_local.h, crypto/seed/seed_local.h
+
+/*
+ * Copyright 2007-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/dso/dso_local.h, crypto/ec/curve25519.c, crypto/pkcs12/p12_local.h, crypto/sha/keccak1600.c, crypto/store/store_local.h, include/crypto/rand.h, include/openssl/store.h, providers/implementations/kdfs/tls1_prf.c, ssl/ssl_init.c, ssl/tls13_enc.c
+
+/*
+ * Copyright 2016-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/curve448/arch_32/arch_intrinsics.h
+
+/*
+ * Copyright 2017-2018 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/arch_32/f_impl.h
+
+/*
+ * Copyright 2017-2018 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2014-2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/arch_32/f_impl32.c, crypto/ec/curve448/field.h
+
+/*
+ * Copyright 2017-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2014 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/arch_64/arch_intrinsics.h
+
+/*
+ * Copyright 2017-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/arch_64/f_impl.h
+
+/*
+ * Copyright 2017-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2014-2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/arch_64/f_impl64.c
+
+/*
+ * Copyright 2017-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2014 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/curve448.c, crypto/ec/curve448/eddsa.c, crypto/ec/curve448/f_generic.c, crypto/ec/curve448/point_448.h
+
+/*
+ * Copyright 2017-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015-2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/curve448_tables.c, crypto/ec/curve448/ed448.h, crypto/ec/curve448/scalar.c
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015-2016 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/curve448utils.h
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/curve448/word.h
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2014 Cryptography Research, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Mike Hamburg
+ */
+
+Files: crypto/ec/ec2_oct.c
+
+/*
+ * Copyright 2011-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ec_backend.c, crypto/evp/ec_support.c, crypto/ffc/ffc_dh.c, crypto/param_build_set.c, crypto/passphrase.c, crypto/x509/v3_utf8.c, include/crypto/dh.h, include/internal/der.h, include/internal/param_build_set.h, providers/implementations/ciphers/cipher_cts.c, providers/implementations/encode_decode/endecoder_common.c
+
+/*
+ * Copyright 2020-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ec_curve.c, crypto/ec/ec_key.c, include/openssl/ec.h
+
+/*
+ * Copyright 2002-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ec_cvt.c, crypto/ec/ecp_mont.c, crypto/ec/ecp_nist.c, crypto/engine/eng_openssl.c
+
+/*
+ * Copyright 2001-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ec_lib.c, crypto/ec/ec_local.h, crypto/ec/ec_mult.c, crypto/engine/eng_local.h
+
+/*
+ * Copyright 2001-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ec_oct.c, crypto/ec/ecp_oct.c
+
+/*
+ * Copyright 2011-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/eck_prn.c
+
+/*
+ * Copyright 2006-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecp_nistp224.c, crypto/s390xcap.c
+
+/*
+ * Copyright 2010-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecp_nistp224.c, crypto/ec/ecp_nistp256.c, crypto/ec/ecp_nistp521.c, crypto/ec/ecp_nistputil.c
+
+/* Copyright 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+Files: crypto/ec/ecp_nistp224.c
+
+/*
+ * A 64-bit implementation of the NIST P-224 elliptic curve point multiplication
+ *
+ * Inspired by Daniel J. Bernstein's public domain nistp224 implementation
+ * and Adam Langley's public domain 64-bit C implementation of curve25519
+ */
+
+Files: crypto/ec/ecp_nistp256.c, crypto/ec/ecp_nistp521.c, crypto/engine/eng_rdrand.c
+
+/*
+ * Copyright 2011-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecp_nistp384.c
+
+/* Copyright 2023 IBM Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+Files: crypto/ec/ecp_nistz256.c
+
+/*
+ * Copyright 2014-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2014, Intel Corporation. All Rights Reserved.
+ * Copyright (c) 2015, CloudFlare, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Shay Gueron (1, 2), and Vlad Krasnov (1, 3)
+ * (1) Intel Corporation, Israel Development Center, Haifa, Israel
+ * (2) University of Haifa, Israel
+ * (3) CloudFlare, Inc.
+ *
+ * Reference:
+ * S.Gueron and V.Krasnov, "Fast Prime Field Elliptic Curve Cryptography with
+ *                          256 Bit Primes"
+ */
+
+Files: crypto/ec/ecp_nistz256_table.c, ssl/ssl_utst.c
+
+/*
+ * Copyright 2014-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecp_ppc.c, crypto/poly1305/poly1305_ppc.c, crypto/sha/sha_ppc.c
+
+/*
+ * Copyright 2009-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecp_sm2p256.c
+
+/*
+ * Copyright 2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ */
+
+Files: crypto/ec/ecp_smpl.c
+
+/*
+ * Copyright 2001-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ec/ecx_backend.c, crypto/rsa/rsa_backend.c, crypto/x509/v3_ist.c, include/openssl/sslerr_legacy.h, providers/implementations/encode_decode/decode_der2key.c, providers/implementations/encode_decode/encode_key2any.c, providers/implementations/exchange/kdf_exch.c, providers/implementations/keymgmt/ecx_kmgmt.c
+
+/*
+ * Copyright 2020-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_all.c
+
+/*
+ * Copyright 2001-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_ctrl.c, crypto/engine/eng_init.c, crypto/engine/eng_lib.c, crypto/http/http_lib.c, crypto/ui/ui_lib.c, crypto/uid.c, crypto/x509/x509cset.c
+
+/*
+ * Copyright 2001-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_dyn.c, crypto/ocsp/ocsp_vfy.c, crypto/ui/ui_openssl.c, providers/implementations/ciphers/cipher_aes_gcm_hw_aesni.inc, providers/implementations/ciphers/cipher_aes_gcm_hw_ppc.inc, providers/implementations/rands/seeding/rand_vms.c
+
+/*
+ * Copyright 2001-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_fat.c
+
+/*
+ * Copyright 2001-2020 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_list.c
+
+/*
+ * Copyright 2001-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/eng_pkey.c, crypto/engine/eng_table.c, crypto/evp/e_aes.c, providers/implementations/ciphers/cipher_aes_hw.c, providers/implementations/ciphers/cipher_aes_hw_s390x.inc
+
+/*
+ * Copyright 2001-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/engine/tb_cipher.c, crypto/engine/tb_dh.c, crypto/engine/tb_digest.c, crypto/engine/tb_dsa.c, crypto/engine/tb_rand.c, crypto/engine/tb_rsa.c, crypto/o_time.c, crypto/ocsp/ocsp_cl.c, crypto/ocsp/ocsp_http.c, crypto/ocsp/ocsp_srv.c, crypto/pkcs12/p12_p8d.c, crypto/pkcs12/p12_p8e.c, include/openssl/types.h, providers/implementations/ciphers/cipher_aes_ccm_hw_aesni.inc, providers/implementations/ciphers/cipher_aes_ccm_hw_t4.inc, providers/implementations/ciphers/cipher_aes_gcm_hw_s390x.inc, providers/implementations/ciphers/cipher_aes_gcm_hw_t4.inc, providers/implementations/ciphers/cipher_aes_hw_aesni.inc, providers/implementations/ciphers/cipher_aes_hw_t4.inc, providers/implementations/ciphers/cipher_aria_hw.c, providers/implementations/ciphers/cipher_camellia_hw.c, providers/implementations/ciphers/cipher_camellia_hw_t4.inc, providers/implementations/ciphers/ciphercommon_gcm_hw.c
+
+/*
+ * Copyright 2001-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/err/err_all_legacy.c, crypto/evp/dh_ctrl.c, crypto/evp/dh_support.c, crypto/evp/dsa_ctrl.c, crypto/pkcs7/pk7_local.h, crypto/rsa/rsa_acvp_test_params.c, crypto/sm2/sm2_key.c, include/crypto/pkcs7.h, include/internal/asn1.h, include/internal/passphrase.h, include/internal/sizes.h, include/openssl/core_object.h, include/openssl/cryptoerr_legacy.h, include/openssl/decoder.h, include/openssl/kdferr.h, providers/common/der/der_rsa_key.c, providers/common/der/der_rsa_sig.c, providers/common/der/der_sm2_key.c, providers/common/der/der_sm2_sig.c, providers/common/digest_to_nid.c, providers/implementations/ciphers/cipher_aes_cts.inc, providers/implementations/encode_decode/endecoder_local.h, providers/implementations/include/prov/seeding.h, providers/implementations/storemgmt/file_store_local.h, ssl/ssl_err_legacy.c, ssl/tls_depr.c
+
+/*
+ * Copyright 2020-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/err/err_mark.c, crypto/x509/v3_ncons.c
+
+/*
+ * Copyright 2003-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/e_aes_cbc_hmac_sha1.c, crypto/o_init.c
+
+/*
+ * Copyright 2011-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/e_old.c, crypto/x509/pcy_lib.c
+
+/*
+ * Copyright 2004-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/e_seed.c, crypto/seed/seed.c, crypto/seed/seed_cbc.c, crypto/seed/seed_cfb.c, crypto/seed/seed_ecb.c, crypto/seed/seed_ofb.c, include/openssl/seed.h
+
+/*
+ * Copyright 2007-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/e_sm4.c, crypto/sm4/sm4.c
+
+/*
+ * Copyright 2017-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017 Ribose Inc. All Rights Reserved.
+ * Ported from Ribose contributions from Botan.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/evp_cnf.c, include/crypto/sparc_arch.h
+
+/*
+ * Copyright 2012-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/kdf_lib.c
+
+/*
+ * Copyright 2018-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2018-2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/evp/pmeth_lib.c, crypto/evp/signature.c, crypto/rsa/rsa_local.h, crypto/x509/v3_addr.c, crypto/x509/v3_asid.c
+
+/*
+ * Copyright 2006-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/getenv.c, include/crypto/pem.h, include/internal/tsan_assist.h
+
+/*
+ * Copyright 2018-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/http/http_client.c
+
+/*
+ * Copyright 2001-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Siemens AG 2018-2020
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ia64cpuid.S
+
+// Copyright 2004-2017 The OpenSSL Project Authors. All Rights Reserved.
+//
+// Licensed under the Apache License 2.0 (the "License").  You may not use
+// this file except in compliance with the License.  You can obtain a copy
+// in the file LICENSE in the source distribution or at
+// https://www.openssl.org/source/license.html
+// Works on all IA-64 platforms: Linux, HP-UX, Win64i...
+// On Win64i compile with ias.exe.
+
+
+Files: crypto/kdf/kdf_err.c
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 1995-2019 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/mem_clr.c, include/openssl/ecdh.h, include/openssl/ecdsa.h
+
+/*
+ * Copyright 2002-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/mem_sec.c
+
+/*
+ * Copyright 2015-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2004-2014, Akamai Technologies. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/mips_arch.h, crypto/vms_rms.h, include/openssl/srtp.h
+
+/*
+ * Copyright 2011-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/modes/ccm128.c, crypto/modes/xts128.c
+
+/*
+ * Copyright 2011-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/modes/cts128.c, include/openssl/modes.h
+
+/*
+ * Copyright 2008-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/modes/wrap128.c
+
+/*
+ * Copyright 2013-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/modes/xts128gb.c, crypto/objects/obj_compat.h, crypto/riscvcap.c, include/internal/bio_addr.h, include/internal/deterministic_nonce.h, include/internal/hpke_util.h, include/internal/list.h, include/internal/priority_queue.h, include/internal/uint_set.h, providers/implementations/include/prov/ecx.h, providers/implementations/include/prov/hmac_drbg.h, providers/implementations/kem/eckem.h, providers/implementations/kem/kem_util.c, ssl/quic/quic_record_shared.h
+
+/*
+ * Copyright 2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/o_dir.c, crypto/sha/sha512.c
+
+/*
+ * Copyright 2004-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/o_str.c
+
+/*
+ * Copyright 2003-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/objects/obj_dat.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by crypto/objects/obj_dat.pl
+ *
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/objects/obj_local.h, include/crypto/engine.h
+
+/*
+ * Copyright 2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/objects/obj_xref.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by objxref.pl
+ *
+ * Copyright 1998-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/param_build.c, providers/implementations/kdfs/sskdf.c, providers/implementations/kdfs/x942kdf.c
+
+/*
+ * Copyright 2019-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/params.c, crypto/params_from_text.c, crypto/property/property.c, crypto/property/property_parse.c
+
+/*
+ * Copyright 2019-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/params_dup.c, include/internal/safe_math.h
+
+/*
+ * Copyright 2021-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/pem/pem_x509.c, crypto/pem/pem_xaux.c, crypto/ui/ui_local.h, crypto/x509/v3_akeya.c
+
+/*
+ * Copyright 2001-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/property/defn_cache.c, crypto/property/property_string.c, crypto/sparse_array.c, providers/implementations/rands/crngt.c
+
+/*
+ * Copyright 2019-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/property/property_local.h, include/crypto/sparse_array.h, include/internal/property.h, include/openssl/param_build.h, include/openssl/params.h
+
+/*
+ * Copyright 2019-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/property/property_query.c, include/internal/unicode.h, providers/fips/fips_entry.c, providers/implementations/ciphers/cipher_camellia_cts.inc, providers/implementations/ciphers/cipher_sm4_ccm.h, providers/implementations/ciphers/cipher_sm4_gcm.h, providers/implementations/digests/null_prov.c, providers/implementations/rands/seeding/rand_cpu_arm64.c
+
+/*
+ * Copyright 2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/rcu_internal.h, include/internal/json_enc.h, include/internal/qlog.h, include/internal/qlog_event_helpers.h, include/internal/qlog_events.h, include/internal/rcu.h, ssl/quic/json_enc.c, ssl/quic/qlog.c, ssl/quic/qlog_event_helpers.c, ssl/quic/quic_port.c, ssl/quic/quic_rcidm.c, ssl/quic/quic_srtm.c, ssl/quic/quic_thread_assist.c, ssl/quic/quic_trace.c
+
+/*
+ * Copyright 2023-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/rsa/rsa_mp.c
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017 BaishanCloud. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/rsa/rsa_sp800_56b_check.c, crypto/rsa/rsa_sp800_56b_gen.c
+
+/*
+ * Copyright 2018-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2018-2019, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/rsa/rsa_x931.c, include/openssl/whrlpool.h, ssl/pqueue.c
+
+/*
+ * Copyright 2005-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/seed/seed.c, crypto/seed/seed_local.h
+
+/*
+ * Copyright (c) 2007 KISA(Korea Information Security Agency). All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Neither the name of author nor the names of its contributors may
+ *    be used to endorse or promote products derived from this software
+ *    without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+
+Files: crypto/sha/sha3.c
+
+/*
+ * Copyright 2017-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/siphash/siphash.c
+
+/*
+   SipHash reference C implementation
+
+   Copyright (c) 2012-2016 Jean-Philippe Aumasson
+   Copyright (c) 2012-2014 Daniel J. Bernstein
+
+   To the extent possible under law, the author(s) have dedicated all copyright
+   and related and neighboring rights to this software to the public domain
+   worldwide. This software is distributed without any warranty.
+
+   You should have received a copy of the CC0 Public Domain Dedication along
+   with this software. If not, see
+   <http://creativecommons.org/publicdomain/zero/1.0/>.
+ */
+
+Files: crypto/sm2/sm2_crypt.c, crypto/sm2/sm2_sign.c, crypto/sm3/sm3_local.h
+
+/*
+ * Copyright 2017-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017 Ribose Inc. All Rights Reserved.
+ * Ported from Ribose contributions from Botan.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/sm3/legacy_sm3.c, include/crypto/sm4.h, include/internal/sm3.h
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017 Ribose Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/sm3/sm3.c, include/crypto/sm2.h
+
+/*
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017 Ribose Inc. All Rights Reserved.
+ * Ported from Ribose contributions from Botan.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/srp/srp_lib.c, ssl/tls_srp.c
+
+/*
+ * Copyright 2004-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2004, EdelKey Project. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Christophe Renou and Peter Sylvester,
+ * for the EdelKey project.
+ */
+
+Files: crypto/srp/srp_vfy.c
+
+/*
+ * Copyright 2004-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2004, EdelKey Project. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * Originally written by Christophe Renou and Peter Sylvester,
+ * for the EdelKey project.
+ */
+
+Files: crypto/ts/ts_lib.c
+
+/*
+ * Copyright 2006-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/ui/ui_null.c
+
+/*
+ * Copyright 2017 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/whrlpool/wp_local.h
+
+/*
+ * Copyright 2005-2016 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/x509/by_store.c, providers/implementations/kdfs/pbkdf2.c, providers/implementations/kdfs/pvkkdf.c, providers/implementations/kdfs/sshkdf.c, providers/implementations/macs/blake2_mac_impl.c, providers/implementations/macs/cmac_prov.c, providers/implementations/macs/gmac_prov.c, providers/implementations/macs/hmac_prov.c, providers/implementations/macs/kmac_prov.c, providers/implementations/macs/poly1305_prov.c, providers/implementations/macs/siphash_prov.c
+
+/*
+ * Copyright 2018-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/x509/pcy_data.c, crypto/x509/pcy_map.c, crypto/x509/v3_pci.c, include/internal/o_dir.h
+
+/*
+ * Copyright 2004-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/x509/v3_admis.h
+
+/*
+ * Copyright 2017-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/x509/v3_pci.c, crypto/x509/v3_pcia.c
+
+/*
+ * This file is dual-licensed and is also available under the following
+ * terms:
+ *
+ * Copyright (c) 2004 Kungliga Tekniska Högskolan
+ * (Royal Institute of Technology, Stockholm, Sweden).
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the Institute nor the names of its contributors
+ *    may be used to endorse or promote products derived from this software
+ *    without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE INSTITUTE AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+
+Files: crypto/x509/v3_pcons.c, crypto/x509/v3_pmaps.c
+
+/*
+ * Copyright 2003-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: crypto/x509/x509_meth.c
+
+/*
+ * Copyright 2018-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/aria.h
+
+/*
+ * Copyright 2006-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2017, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/aria.h
+
+/* Copyright (c) 2017 National Security Research Institute.  All rights reserved. */
+
+Files: include/crypto/asn1err.h, include/crypto/asyncerr.h, include/crypto/buffererr.h, include/crypto/comperr.h, include/crypto/crmferr.h, include/crypto/cterr.h, include/crypto/decodererr.h, include/crypto/encodererr.h, include/crypto/engineerr.h, include/crypto/esserr.h, include/crypto/objectserr.h, include/crypto/ocsperr.h, include/crypto/pemerr.h, include/crypto/pkcs7err.h, include/crypto/rsaerr.h, include/crypto/sm2err.h, include/crypto/storeerr.h, include/crypto/tserr.h, include/crypto/uierr.h, include/crypto/x509v3err.h, include/internal/dsoerr.h, include/internal/propertyerr.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 2020-2021 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/bioerr.h, include/crypto/bnerr.h, include/crypto/cmserr.h, include/crypto/cryptoerr.h, include/crypto/pkcs12err.h, include/crypto/x509err.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 2020-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/bn.h, include/internal/constant_time.h
+
+/*
+ * Copyright 2014-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/cmperr.h, include/crypto/conferr.h, include/crypto/dherr.h, include/crypto/dsaerr.h, include/crypto/ecerr.h, include/crypto/evperr.h, include/crypto/randerr.h, providers/common/include/prov/proverr.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 2020-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/evp.h, include/crypto/x509.h
+
+/*
+ * Copyright 2015-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/httperr.h, ssl/sslerr.h
+
+/*
+ * Generated by util/mkerr.pl DO NOT EDIT
+ * Copyright 2020-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/modes.h
+
+/*
+ * Copyright 2010-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/ppc_arch.h
+
+/*
+ * Copyright 2014-2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/crypto/sha.h
+
+/*
+ * Copyright 2018-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2018, Oracle and/or its affiliates.  All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/internal/ktls.h, providers/implementations/kdfs/krb5kdf.c, ssl/record/methods/dtls_meth.c, ssl/record/methods/ktls_meth.c
+
+/*
+ * Copyright 2018-2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/internal/quic_lcidm.h, include/internal/quic_srt_gen.h, include/internal/quic_srtm.h
+
+/*
+* Copyright 2023 The OpenSSL Project Authors. All Rights Reserved.
+*
+* Licensed under the Apache License 2.0 (the "License").  You may not use
+* this file except in compliance with the License.  You can obtain a copy
+* in the file LICENSE in the source distribution or at
+* https://www.openssl.org/source/license.html
+*/
+
+Files: include/internal/quic_rcidm.h
+
+/*
+* Copyright 2023-2024 The OpenSSL Project Authors. All Rights Reserved.
+*
+* Licensed under the Apache License 2.0 (the "License").  You may not use
+* this file except in compliance with the License.  You can obtain a copy
+* in the file LICENSE in the source distribution or at
+* https://www.openssl.org/source/license.html
+*/
+
+Files: include/internal/quic_stream.h, include/internal/quic_vlint.h, include/internal/quic_wire.h, ssl/quic/quic_rstream.c
+
+/*
+* Copyright 2022-2023 The OpenSSL Project Authors. All Rights Reserved.
+*
+* Licensed under the Apache License 2.0 (the "License").  You may not use
+* this file except in compliance with the License.  You can obtain a copy
+* in the file LICENSE in the source distribution or at
+* https://www.openssl.org/source/license.html
+*/
+
+Files: include/internal/quic_stream_map.h, ssl/quic/quic_stream_map.c
+
+/*
+* Copyright 2022-2024 The OpenSSL Project Authors. All Rights Reserved.
+*
+* Licensed under the Apache License 2.0 (the "License").  You may not use
+* this file except in compliance with the License.  You can obtain a copy
+* in the file LICENSE in the source distribution or at
+* https://www.openssl.org/source/license.html
+*/
+
+Files: include/openssl/bn.h
+
+/*
+ * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/comp.h
+
+/*
+ * Copyright 2015-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/engine.h
+
+/*
+ * Copyright 2000-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/http.h
+
+/*
+ * Copyright 2000-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright Siemens AG 2018-2020
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/obj_mac.h
+
+/*
+ * WARNING: do not edit!
+ * Generated by crypto/objects/objects.pl
+ *
+ * Copyright 2000-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/objects.h
+
+/*
+ * Copyright 1995-2019 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/pem2.h
+
+/*
+ * Copyright 1999-2018 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/seed.h
+
+/*
+ * Copyright (c) 2007 KISA(Korea Information Security Agency). All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Neither the name of author nor the names of its contributors may
+ *    be used to endorse or promote products derived from this software
+ *    without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+
+Files: include/openssl/srtp.h, ssl/d1_srtp.c
+
+/*
+ * DTLS code by Eric Rescorla <ekr@rtfm.com>
+ *
+ * Copyright (C) 2006, Network Resonance, Inc. Copyright (C) 2011, RTFM, Inc.
+ */
+
+Files: include/openssl/ssl3.h, include/openssl/thread.h, ssl/ssl_cert.c
+
+/*
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: include/openssl/tls1.h, ssl/s3_lib.c, ssl/ssl_ciph.c, ssl/ssl_lib.c, ssl/ssl_local.h, ssl/statem/statem_clnt.c, ssl/statem/statem_srvr.c
+
+/*
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ * Copyright 2005 Nokia. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: providers/common/include/prov/provider_ctx.h, providers/fips/self_test.h, providers/implementations/ciphers/cipher_aes.c, providers/implementations/ciphers/cipher_aes_cbc_hmac_sha.h, providers/implementations/ciphers/cipher_aes_ccm.h, providers/implementations/ciphers/cipher_aes_ocb.h, providers/implementations/ciphers/cipher_aria.c, providers/implementations/ciphers/cipher_aria.h, providers/implementations/ciphers/cipher_aria_ccm.h, providers/implementations/ciphers/cipher_aria_gcm.h, providers/implementations/ciphers/cipher_blowfish.h, providers/implementations/ciphers/cipher_blowfish_hw.c, providers/implementations/ciphers/cipher_cast.h, providers/implementations/ciphers/cipher_cast5_hw.c, providers/implementations/ciphers/cipher_desx.c, providers/implementations/ciphers/cipher_idea.c, providers/implementations/ciphers/cipher_idea.h, providers/implementations/ciphers/cipher_idea_hw.c, providers/implementations/ciphers/cipher_rc2.h, providers/implementations/ciphers/cipher_rc2_hw.c, providers/implementations/ciphers/cipher_rc4.h, providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c, providers/implementations/ciphers/cipher_rc4_hw.c, providers/implementations/ciphers/cipher_rc5.h, providers/implementations/ciphers/cipher_rc5_hw.c, providers/implementations/ciphers/cipher_seed.c, providers/implementations/ciphers/cipher_seed.h, providers/implementations/ciphers/cipher_seed_hw.c, providers/implementations/ciphers/cipher_sm4.c, providers/implementations/digests/md2_prov.c, providers/implementations/digests/md4_prov.c, providers/implementations/digests/md5_prov.c, providers/implementations/digests/ripemd_prov.c, providers/implementations/digests/wp_prov.c
+
+/*
+ * Copyright 2019-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: providers/implementations/ciphers/cipher_aes_ccm_hw_s390x.inc
+
+/*
+ * Copyright 2001-2020 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: providers/implementations/ciphers/cipher_aes_gcm_hw_vaes_avx512.inc
+
+/*
+ * Copyright 2021-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2021, Intel Corporation. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: providers/implementations/digests/blake2_impl.h, providers/implementations/digests/blake2b_prov.c, providers/implementations/digests/blake2s_prov.c
+
+/*
+ * Derived from the BLAKE2 reference implementation written by Samuel Neves.
+ * Copyright 2012, Samuel Neves <sneves@dei.uc.pt>
+ * More information about the BLAKE2 hash function and its implementations
+ * can be found at https://blake2.net.
+ */
+
+Files: providers/implementations/kdfs/argon2.c
+
+/*
+ * Copyright 2022-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ *
+ * RFC 9106 Argon2 (see https://www.rfc-editor.org/rfc/rfc9106.txt)
+ *
+ */
+
+Files: providers/implementations/kdfs/kbkdf.c
+
+/*
+ * Copyright 2019-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2019 Red Hat, Inc.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: providers/implementations/keymgmt/ec_kmgmt_imexport.inc
+
+/*
+ * Copyright 2022 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+*/
+
+Files: ssl/record/methods/ssl3_cbc.c, ssl/t1_trce.c
+
+/*
+ * Copyright 2012-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/rio/poll_immediate.c
+
+/*
+ * Copyright 2024 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/s3_enc.c, ssl/ssl_sess.c, ssl/t1_enc.c
+
+/*
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2005 Nokia. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/ssl_asn1.c
+
+/*
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2005 Nokia. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/ssl_stat.c
+
+/*
+ * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2005 Nokia. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/ssl_txt.c
+
+/*
+ * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2005 Nokia. All rights reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/statem/extensions_cust.c
+
+/*
+ * Copyright 2014-2023 The OpenSSL Project Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */
+
+Files: ssl/statem/statem_lib.c
+
+/*
+ * Copyright 1995-2024 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+ *
+ * Licensed under the Apache License 2.0 (the "License").  You may not use
+ * this file except in compliance with the License.  You can obtain a copy
+ * in the file LICENSE in the source distribution or at
+ * https://www.openssl.org/source/license.html
+ */

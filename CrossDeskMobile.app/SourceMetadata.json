@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "repositoryURL": "https://github.com/kunkundi/crossdesk",
+  "revision": "1e25ec15e11a5d7054a18a21bed72c6e85d5f9db",
+  "tag": "v1.7.3-1-20261026",
+  "isModified": false,
+  "sourceURL": "https://github.com/kunkundi/crossdesk/tree/v1.7.3-1-20261026",
+  "buildInstructionsURL": "https://github.com/kunkundi/crossdesk/blob/v1.7.3-1-20261026/apps/ios/README.md",
+  "privacyPolicyURL": "https://github.com/kunkundi/crossdesk/blob/v1.7.3-1-20261026/PRIVACY.md",
+  "miniRTCRevision": "bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90",
+  "miniRTCSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90",
+  "componentSources": {
+    "glib": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/glib"
+    },
+    "inih": {
+      "version": "bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90",
+      "sourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90"
+    },
+    "libdatachannel": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/libdatachannel"
+    },
+    "libnice": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/libnice"
+    },
+    "libsrtp": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/libsrtp"
+    },
+    "minirtc": {
+      "version": "bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90",
+      "sourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90"
+    },
+    "openfec": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/openfec"
+    },
+    "openssl3": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/openssl"
+    },
+    "webrtc": {
+      "version": "bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90",
+      "sourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90"
+    },
+    "websocketpp": {
+      "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/bd90bc7c8cc52baefd23a7e3e220dccd9b51dc90/thirdparty/websocketpp"
+    }
+  },
+  "toolchain": {
+    "xmake_min_version": "3.1.1",
+    "xmake_repository_revision": "121109352da272cd1a3d4ed52f2dcda34f839955"
+  }
+}

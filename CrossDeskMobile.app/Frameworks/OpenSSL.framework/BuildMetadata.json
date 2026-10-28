@@ -1,0 +1,10 @@
+{
+  "version": "3.3.2",
+  "sourceURL": "https://github.com/openssl/openssl/archive/refs/tags/openssl-3.3.2.zip",
+  "buildSourceURL": "https://github.com/kunkundi/minirtc/tree/24d9d9deefb95ede2cdb18e77cb01350101f70f8/thirdparty/openssl",
+  "archives": {
+    "libcrypto.a": "09b2966440474cdeac2feae69cb423d28818b87b805abe02ac61cd65e20d6c64",
+    "libssl.a": "b4e4a84fc502e452dcf2a11c54e82c8e1b97c98b8708687bf13c2030284be927"
+  },
+  "privacySHA256": "528ab3fca910d2ac2f3ef256d5ea4c2327303a7a4a5efb9236987f3018e311f3"
+}

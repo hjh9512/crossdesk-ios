@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# 本地打包产物（勿提交到仓库）
+dist/
+*.ipa
+
+# 敏感文件（切勿提交）
+*.p12
+*.p12.b64
+*.mobileprovision
+*.mobileprovision.b64
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.suo
+*.user
